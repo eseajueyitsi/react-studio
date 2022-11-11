@@ -26,8 +26,11 @@ function App() {
       <h3>
         total : {count}
       </h3>
-
-
+    
+      <h4>
+        cart items: {cart} {space}
+      </h4>
+     
       {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
         <BakeryItem       name = {item.name} 
                           price = {item.price} 
